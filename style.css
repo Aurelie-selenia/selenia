@@ -114,3 +114,29 @@ a:hover {
   width: 400px;
   height: 700px;
   object-fit
+}
+  /* Code footer */
+.footer {
+  margin: 50px 10px;
+  text-align: center;
+  font-size: 15px;
+  height: 100%;
+}
+
+/* Ajustement des icônes dans le footer */
+.footer img {
+  width: 5%; /* Réduire la taille des icônes à 5% de la largeur du conteneur */
+  padding-left: 20px;
+  transition: transform 0.3s ease; /* Ajout d'une transition pour un effet interactif */
+}
+
+.footer img:hover {
+  transform: scale(1.1); /* L'icône grandit légèrement au survol pour un effet visuel */
+}
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+  .footer img {
+    width: 8%; /* Sur les petits écrans (mobiles), augmente un peu la taille des icônes */
+  }
+}
