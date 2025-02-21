@@ -54,7 +54,7 @@ a:hover {
 .selenia-logo img {
   max-width: 50%; /* L’image ne dépassera pas 50% de la largeur du conteneur */
   height: auto; /* Garde les proportions */
-  margin-bottom: 200px; /* Espace entre l'image et la vidéo */
+  margin-bottom: 20px; /* Espace entre l'image et la vidéo */
 }
 
 .selenia-logo iframe {
