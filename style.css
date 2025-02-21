@@ -57,9 +57,13 @@ a:hover {
   margin-bottom: 20px; /* Espace entre l'image et la vidéo */
 }
 
+/* Pour l'iframe (vidéo YouTube) */
 .selenia-logo iframe {
-  max-width: 80%; /* La vidéo prendra 80% de la largeur du conteneur */
-  height: auto;
+  width: 100%; /* La vidéo prendra toute la largeur disponible */
+  max-width: 560px; /* Elle ne dépassera pas cette largeur */
+  height: 315px; /* Hauteur classique pour un ratio 16:9 */
+  border: none;
+  margin-top: 20px; /* Espace entre l'image et la vidéo */
 }
 
 /* Code page sur l'équipe */
@@ -110,34 +114,4 @@ a:hover {
 .topo_jeu img {
   width: 400px;
   height: 700px;
-  object-fit: cover;
-  border-radius: 50%;
-  float: left;
-  shape-outside: margin-box;
-  margin: 0 50px 5px 0;
-  box-shadow: 10px 10px 25px rgba(255, 255, 255, 0.5);
-}
-
-/* Code footer */
-.footer {
-  margin: 50px 10px;
-  text-align: center;
-  font-size: 15px;
-  height: 100%;
-}
-
-.footer img {
-  width: 2%;
-  padding-left: 20px;
-}
-
-/* Responsive design */
-@media screen and (max-width: 768px) {
-  .selenia-logo img {
-    max-width: 80%; /* Sur mobile, l’image prendra 80% de la largeur */
-  }
-
-  .footer img {
-    width: 5%; /* Agrandit les icônes du footer sur mobile */
-  }
-}
+  object-fit
