@@ -61,7 +61,6 @@ a:hover {
 .selenia-logo iframe {
   width: 100%; /* La vidéo prendra toute la largeur disponible */
   max-width: 560px; /* Elle ne dépassera pas cette largeur */
-  height: 315px; /* Hauteur classique pour un ratio 16:9 */
   border: none;
   margin-top: 20px; /* Espace entre l'image et la vidéo */
 }
