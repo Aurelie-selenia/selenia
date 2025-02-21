@@ -115,7 +115,7 @@ a:hover {
   height: 700px;
   object-fit
 }
-  /* Code footer */
+ /* Code footer */
 .footer {
   margin: 50px 10px;
   text-align: center;
@@ -125,18 +125,18 @@ a:hover {
 
 /* Ajustement des icônes dans le footer */
 .footer img {
-  width: 5%; /* Réduire la taille des icônes à 5% de la largeur du conteneur */
-  padding-left: 20px;
+  width: 3%; /* Réduire la taille des icônes à 3% de la largeur du conteneur (plus petit) */
+  padding-left: 10px; /* Réduit l'espace à gauche */
   transition: transform 0.3s ease; /* Ajout d'une transition pour un effet interactif */
 }
 
 .footer img:hover {
-  transform: scale(1.1); /* L'icône grandit légèrement au survol pour un effet visuel */
+  transform: scale(1.2); /* L'icône grandit un peu plus au survol pour un effet visuel */
 }
 
 /* Responsive design */
 @media screen and (max-width: 768px) {
   .footer img {
-    width: 8%; /* Sur les petits écrans (mobiles), augmente un peu la taille des icônes */
+    width: 6%; /* Sur les petits écrans, ajuste la taille des icônes */
   }
 }
