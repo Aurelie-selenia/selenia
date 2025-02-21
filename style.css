@@ -3,7 +3,7 @@ html, body {
 }
 
 body {
-  background-image: url("/luneflou.png");
+  background-image: url("https://aurelie-selenia.github.io/selenia/luneflou.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% auto;
