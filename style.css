@@ -15,7 +15,7 @@ body {
 }
 
 .contenu {
-  flex-grow: 1;
+  flex-grow: 3;
 }
 
 .header-nav {
