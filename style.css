@@ -1,0 +1,136 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background-image: url("/photos/luneflou.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% auto;
+  color: white;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.contenu {
+  flex-grow: 1;
+}
+
+.header-nav {
+  width: 100%;
+  position:fixed;
+  background-color:black;
+  text-transform: uppercase;
+  font-size: 16px;
+  text-align: center;
+  top: 0;
+  padding: 0.8em;
+
+}
+
+.header-nav a {
+  margin : 0 15px;
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a {
+  color: bisque;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: brown;
+}
+
+.selenia-logo {
+  text-align: center;
+}
+
+.selenia-logo video {
+  width: 300px;
+}
+
+.selenia-logo img {
+  width: 600px;
+}
+
+
+
+/*Code page sur l'équpe*/
+
+.topo_equipe {
+  max-width: 950px;
+  margin : 100px auto;
+  padding : 30px
+}
+.topo_equipe h2 {
+  margin-bottom : 10px;
+  font-size: 35px;
+}
+
+.topo_equipe p {
+  line-height: 1.4;
+  font-size: 20px;
+}
+
+.topo_equipe img {
+  width: 400px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 50%;
+  float: left;
+  shape-outside: margin-box;
+  margin : 0 50px 5px 0;
+  box-shadow: 10px 10px 25px rgba(255, 255, 255, 0.5);
+}
+
+
+/*Code page sur le jeu*/
+
+.topo_jeu {
+  max-width: 950px;
+  margin : 100px auto;
+  padding : 30px
+}
+.topo_jeu h2 {
+  margin-bottom : 10px;
+  font-size: 35px;
+}
+
+.topo_jeu p {
+  line-height: 1.4;
+  font-size: 20px;
+}
+
+.topo_jeu img {
+  width: 400px;
+  height: 700px;
+  object-fit: cover;
+  border-radius: 50%;
+  float: left;
+  shape-outside: margin-box;
+  margin : 0 50px 5px 0;
+  box-shadow: 10px 10px 25px rgba(255, 255, 255, 0.5);
+}
+
+
+
+/*Code footer*/
+
+.footer {
+  margin: 50px 10px;
+  text-align: center;
+  font-size: 15px;
+  height: 100%;
+
+}
+
+.footer img {
+  width: 2%;
+  padding-left: 20px;
+}
