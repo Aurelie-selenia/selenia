@@ -48,6 +48,8 @@ a:hover {
 .selenia-logo img{
   text-align: center;
   margin-top: 200px; /* Ajuste la valeur selon ton besoin */
+  width: 300px; /* Largeur fixe */
+    height: auto; /* Garde les proportions */
 }
 
 .selenia-logo video {
