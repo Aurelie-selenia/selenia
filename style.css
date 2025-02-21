@@ -42,18 +42,24 @@ a:hover {
   color: brown;
 }
 
+/* CENTRAGE IMAGE ET VIDÉO */
 .selenia-logo {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centre horizontalement */
+  justify-content: center; /* Centre verticalement */
   margin-top: 100px; /* Ajuste la marge en haut */
 }
 
 .selenia-logo img {
   max-width: 50%; /* L’image ne dépassera pas 50% de la largeur du conteneur */
   height: auto; /* Garde les proportions */
+  margin-bottom: 20px; /* Espace entre l'image et la vidéo */
 }
 
-.selenia-logo video {
-  width: 300px;
+.selenia-logo iframe {
+  max-width: 80%; /* La vidéo prendra 80% de la largeur du conteneur */
+  height: auto;
 }
 
 /* Code page sur l'équipe */
