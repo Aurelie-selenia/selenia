@@ -13,7 +13,9 @@ body {
   display: flex;
   flex-direction: column;
 }
-
+.selenia-logo img {
+    margin-top: 20px; /* Ajuste la valeur selon ton besoin */
+}
 .contenu {
   flex-grow: 3;
 }
