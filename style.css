@@ -80,15 +80,16 @@ a:hover {
 }
 
 .topo_equipe img {
-  width: 400px;
-  height: 500px;
+  width: 300px;  /* Assure que la largeur et la hauteur sont identiques */
+  height: 300px;
   object-fit: cover;
-  border-radius: 50%;
+  border-radius: 50%; /* Rend l'image totalement ronde */
   float: left;
   shape-outside: margin-box;
   margin: 0 50px 5px 0;
   box-shadow: 10px 10px 25px rgba(255, 255, 255, 0.5);
 }
+
 
 
 /* Responsive design pour l'image de l'équipe */
