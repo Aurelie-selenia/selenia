@@ -80,9 +80,8 @@ a:hover {
 }
 
 .topo_equipe img {
-  width: 100%; /* L'image prendra la largeur maximale du conteneur */
-  max-width: 400px; /* Elle ne dépassera pas 400px sur les grands écrans */
-  height: auto;
+  width: 400px;
+  height: 500px;
   object-fit: cover;
   border-radius: 50%;
   float: left;
@@ -90,6 +89,7 @@ a:hover {
   margin: 0 50px 5px 0;
   box-shadow: 10px 10px 25px rgba(255, 255, 255, 0.5);
 }
+
 
 /* Responsive design pour l'image de l'équipe */
 @media screen and (max-width: 768px) {
