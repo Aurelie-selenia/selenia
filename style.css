@@ -43,23 +43,23 @@ a:hover {
 .selenia-logo {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Centre horizontalement */
-  justify-content: center; /* Centre verticalement */
-  margin-top: 100px; /* Ajuste la marge en haut */
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
 }
 
 .selenia-logo img {
-  max-width: 50%; /* L’image ne dépassera pas 50% de la largeur du conteneur */
-  height: auto; /* Garde les proportions */
-  margin-bottom: 20px; /* Espace entre l'image et la vidéo */
+  max-width: 50%;
+  height: auto;
+  margin-bottom: 20px;
 }
 
 /* Pour l'iframe (vidéo YouTube) */
 .selenia-logo iframe {
-  width: 100%; /* La vidéo prendra toute la largeur disponible */
-  max-width: 560px; /* Elle ne dépassera pas cette largeur */
+  width: 100%;
+  max-width: 560px;
   border: none;
-  margin-top: 20px; /* Espace entre l'image et la vidéo */
+  margin-top: 20px;
 }
 
 /* Code page sur l'équipe */
@@ -80,8 +80,9 @@ a:hover {
 }
 
 .topo_equipe img {
-  width: 400px;
-  height: 500px;
+  width: 100%; /* L'image prendra la largeur maximale du conteneur */
+  max-width: 400px; /* Elle ne dépassera pas 400px sur les grands écrans */
+  height: auto;
   object-fit: cover;
   border-radius: 50%;
   float: left;
@@ -90,6 +91,17 @@ a:hover {
   box-shadow: 10px 10px 25px rgba(255, 255, 255, 0.5);
 }
 
+/* Responsive design pour l'image de l'équipe */
+@media screen and (max-width: 768px) {
+  .topo_equipe img {
+    float: none; /* Supprime le flottement sur mobile */
+    display: block;
+    margin: 0 auto 20px; /* Centre l'image avec une marge en bas */
+  }
+  .topo_equipe {
+    text-align: center; /* Centre le texte */
+  }
+}
 
  /* Code footer */
 .footer {
@@ -101,18 +113,18 @@ a:hover {
 
 /* Ajustement des icônes dans le footer */
 .footer img {
-  width: 3%; /* Réduire la taille des icônes à 3% de la largeur du conteneur (plus petit) */
-  padding-left: 10px; /* Réduit l'espace à gauche */
-  transition: transform 0.3s ease; /* Ajout d'une transition pour un effet interactif */
+  width: 3%;
+  padding-left: 10px;
+  transition: transform 0.3s ease;
 }
 
 .footer img:hover {
-  transform: scale(1.2); /* L'icône grandit un peu plus au survol pour un effet visuel */
+  transform: scale(1.2);
 }
 
 /* Responsive design */
 @media screen and (max-width: 768px) {
   .footer img {
-    width: 6%; /* Sur les petits écrans, ajuste la taille des icônes */
+    width: 6%;
   }
 }
