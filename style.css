@@ -11,6 +11,7 @@ body {
   flex-direction: column;
 }
 
+/* Navigation */
 .header-nav {
   width: 100%;
   position: fixed;
@@ -80,31 +81,17 @@ a:hover {
 }
 
 .topo_equipe img {
-  width: 400px;  /* Assure que la largeur et la hauteur sont identiques */
+  width: 400px;
   height: 400px;
   object-fit: cover;
-  border-radius: 50%; /* Rend l'image totalement ronde */
+  border-radius: 50%;
   float: left;
   shape-outside: margin-box;
   margin: 0 50px 5px 0;
   box-shadow: 10px 10px 25px rgba(255, 255, 255, 0.5);
 }
 
-
-
-/* Responsive design pour l'image de l'équipe */
-@media screen and (max-width: 768px) {
-  .topo_equipe img {
-    float: none; /* Supprime le flottement sur mobile */
-    display: block;
-    margin: 0 auto 20px; /* Centre l'image avec une marge en bas */
-  }
-  .topo_equipe {
-    text-align: center; /* Centre le texte */
-  }
-}
-
- /* Code footer */
+/* Code footer */
 .footer {
   margin: 50px 10px;
   text-align: center;
@@ -123,8 +110,43 @@ a:hover {
   transform: scale(1.2);
 }
 
-/* Responsive design */
+/* Responsive design pour les petits écrans */
 @media screen and (max-width: 768px) {
+
+  /* Centrer le contenu */
+  .contenu {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Ajustement de la taille du texte */
+  .topo_equipe h2 {
+    font-size: 28px;
+  }
+
+  .topo_equipe p {
+    font-size: 16px;
+    text-align: justify;
+    padding: 0 20px;
+  }
+
+  /* Image bien centrée et adaptée sur mobile */
+  .topo_equipe img {
+    width: 200px;
+    height: 200px;
+    float: none;
+    display: block;
+    margin: 0 auto 20px;
+  }
+
+  /* Ajustement du menu de navigation */
+  .header-nav {
+    font-size: 14px;
+  }
+
+  /* Ajustement du footer */
   .footer img {
     width: 6%;
   }
