@@ -80,8 +80,8 @@ a:hover {
 }
 
 .topo_equipe img {
-  width: 300px;  /* Assure que la largeur et la hauteur sont identiques */
-  height: 300px;
+  width: 400px;  /* Assure que la largeur et la hauteur sont identiques */
+  height: 400px;
   object-fit: cover;
   border-radius: 50%; /* Rend l'image totalement ronde */
   float: left;
